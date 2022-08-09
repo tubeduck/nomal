@@ -1,0 +1,17 @@
+#welcome {
+    color: white;
+    text-align: center;
+    margin: 390px;
+    font-size: 40px;
+}
+
+body {
+    background: black;
+}
+
+#goto_main_shop {
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
