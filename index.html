@@ -8,9 +8,11 @@
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
     <title>Duck's shop 랜딩페이지</title>
     <link rel="stylesheet" href="first_page.css">
+    <script src="main.js" defer></script>
 </head>
 
     <body>
+        <script>alert("PC 전체화면으로 보시는걸 권장합니다")</script>
         <div id="welcome">
             <h1>Duck's shop에 오신걸 환영합니다!!</h1>
             <h3 id="goto_main_shop">메인 상점으로 이동하려면 <a href="mainshop.html">여기</a>를 누르세요.</h3>
@@ -21,10 +23,12 @@
                 new TypeIt('#welcome')
                 .pause(1000)
                 .go()
+            
 
                 TypeIt('#goto_main_shop')
                 .pause(1000)
                 .go()
+                
             })
           
                 

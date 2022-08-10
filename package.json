@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "scroll-out": "^2.2.12",
     "typeit": "^8.7.0"
   }
 }
